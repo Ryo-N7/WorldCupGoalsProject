@@ -1,0 +1,2 @@
+# WorldCupGoalsProject
+Senior Econometrics Project
