@@ -11,3 +11,6 @@ Use dplyr, ggplot2
 Analyze according to opponent? Sort how to better label opponent tag...
 
 Percentages as decimals???
+
+More data for other WCs? (hopefully...)
+
