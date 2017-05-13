@@ -35,7 +35,16 @@ stepwisemod <- stepAIC(lm(Goals ~ Temperature + Humidity + TotalShots + ShotAccu
 
 summary(stepwisemod)
 
+# Extra created variables:
+worldcup %>% mutate(AvgPassRate = (ShortRate + MediumRate + LongRate)/3)
 
+worldcup %>% mutate(Cards = (OpponentYellow + OpponentRed))
+
+worldcup %>% mutate(ShotsSqrd = (TotalShots^2))
+
+worldcup %>% mutate(FouledSqrd = (Fouled^2))
+
+worldcup %>% mutate(CornerKickSqrd = (CornerKicks^2))
 
 
 
